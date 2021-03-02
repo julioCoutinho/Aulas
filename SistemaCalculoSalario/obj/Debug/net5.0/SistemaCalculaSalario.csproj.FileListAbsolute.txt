@@ -1,0 +1,16 @@
+C:\Users\PICHAU\Documents\GitAulas\SistemaCalculoSalario\obj\Debug\net5.0\SistemaCalculaSalario.csprojAssemblyReference.cache
+C:\Users\PICHAU\Documents\GitAulas\SistemaCalculoSalario\obj\Debug\net5.0\SistemaCalculaSalario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PICHAU\Documents\GitAulas\SistemaCalculoSalario\obj\Debug\net5.0\SistemaCalculaSalario.AssemblyInfoInputs.cache
+C:\Users\PICHAU\Documents\GitAulas\SistemaCalculoSalario\obj\Debug\net5.0\SistemaCalculaSalario.AssemblyInfo.cs
+C:\Users\PICHAU\Documents\GitAulas\SistemaCalculoSalario\obj\Debug\net5.0\SistemaCalculaSalario.csproj.CoreCompileInputs.cache
+C:\Users\PICHAU\Documents\GitAulas\SistemaCalculoSalario\bin\Debug\net5.0\SistemaCalculaSalario.exe
+C:\Users\PICHAU\Documents\GitAulas\SistemaCalculoSalario\bin\Debug\net5.0\SistemaCalculaSalario.deps.json
+C:\Users\PICHAU\Documents\GitAulas\SistemaCalculoSalario\bin\Debug\net5.0\SistemaCalculaSalario.runtimeconfig.json
+C:\Users\PICHAU\Documents\GitAulas\SistemaCalculoSalario\bin\Debug\net5.0\SistemaCalculaSalario.runtimeconfig.dev.json
+C:\Users\PICHAU\Documents\GitAulas\SistemaCalculoSalario\bin\Debug\net5.0\SistemaCalculaSalario.dll
+C:\Users\PICHAU\Documents\GitAulas\SistemaCalculoSalario\bin\Debug\net5.0\ref\SistemaCalculaSalario.dll
+C:\Users\PICHAU\Documents\GitAulas\SistemaCalculoSalario\bin\Debug\net5.0\SistemaCalculaSalario.pdb
+C:\Users\PICHAU\Documents\GitAulas\SistemaCalculoSalario\obj\Debug\net5.0\SistemaCalculaSalario.dll
+C:\Users\PICHAU\Documents\GitAulas\SistemaCalculoSalario\obj\Debug\net5.0\ref\SistemaCalculaSalario.dll
+C:\Users\PICHAU\Documents\GitAulas\SistemaCalculoSalario\obj\Debug\net5.0\SistemaCalculaSalario.pdb
+C:\Users\PICHAU\Documents\GitAulas\SistemaCalculoSalario\obj\Debug\net5.0\SistemaCalculaSalario.genruntimeconfig.cache
