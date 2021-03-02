@@ -38,7 +38,7 @@ namespace Dio.Bank
         public void Transferir(double valorTransferencia, Conta contaDestino){
             if(this.Sacar(valorTransferencia)){
                 contaDestino.Depositar(valorTransferencia);
-                Console.WriteLine("Foi transferido {2} para {3} e o saldo atual da conta de {0} é {1}",this.Nome,this.Saldo,valorTransferencia,contaDestino.Nome);
+                Console.WriteLine("Foi transferido {1} de {0} para {2}",this.Nome,valorTransferencia,contaDestino.Nome);
             }
         }
 
