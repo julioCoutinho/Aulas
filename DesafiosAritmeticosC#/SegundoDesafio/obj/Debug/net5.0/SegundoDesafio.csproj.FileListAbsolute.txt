@@ -1,0 +1,16 @@
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\SegundoDesafio\bin\Debug\net5.0\SegundoDesafio.exe
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\SegundoDesafio\bin\Debug\net5.0\SegundoDesafio.deps.json
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\SegundoDesafio\bin\Debug\net5.0\SegundoDesafio.runtimeconfig.json
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\SegundoDesafio\bin\Debug\net5.0\SegundoDesafio.runtimeconfig.dev.json
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\SegundoDesafio\bin\Debug\net5.0\SegundoDesafio.dll
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\SegundoDesafio\bin\Debug\net5.0\ref\SegundoDesafio.dll
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\SegundoDesafio\bin\Debug\net5.0\SegundoDesafio.pdb
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\SegundoDesafio\obj\Debug\net5.0\SegundoDesafio.csprojAssemblyReference.cache
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\SegundoDesafio\obj\Debug\net5.0\SegundoDesafio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\SegundoDesafio\obj\Debug\net5.0\SegundoDesafio.AssemblyInfoInputs.cache
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\SegundoDesafio\obj\Debug\net5.0\SegundoDesafio.AssemblyInfo.cs
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\SegundoDesafio\obj\Debug\net5.0\SegundoDesafio.csproj.CoreCompileInputs.cache
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\SegundoDesafio\obj\Debug\net5.0\SegundoDesafio.dll
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\SegundoDesafio\obj\Debug\net5.0\ref\SegundoDesafio.dll
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\SegundoDesafio\obj\Debug\net5.0\SegundoDesafio.pdb
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\SegundoDesafio\obj\Debug\net5.0\SegundoDesafio.genruntimeconfig.cache

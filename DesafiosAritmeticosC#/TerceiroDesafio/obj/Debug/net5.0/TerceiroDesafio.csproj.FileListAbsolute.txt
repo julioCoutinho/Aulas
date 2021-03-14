@@ -1,0 +1,16 @@
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\TerceiroDesafio\obj\Debug\net5.0\TerceiroDesafio.csprojAssemblyReference.cache
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\TerceiroDesafio\obj\Debug\net5.0\TerceiroDesafio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\TerceiroDesafio\obj\Debug\net5.0\TerceiroDesafio.AssemblyInfoInputs.cache
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\TerceiroDesafio\obj\Debug\net5.0\TerceiroDesafio.AssemblyInfo.cs
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\TerceiroDesafio\obj\Debug\net5.0\TerceiroDesafio.csproj.CoreCompileInputs.cache
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\TerceiroDesafio\bin\Debug\net5.0\TerceiroDesafio.exe
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\TerceiroDesafio\bin\Debug\net5.0\TerceiroDesafio.deps.json
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\TerceiroDesafio\bin\Debug\net5.0\TerceiroDesafio.runtimeconfig.json
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\TerceiroDesafio\bin\Debug\net5.0\TerceiroDesafio.runtimeconfig.dev.json
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\TerceiroDesafio\bin\Debug\net5.0\TerceiroDesafio.dll
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\TerceiroDesafio\bin\Debug\net5.0\ref\TerceiroDesafio.dll
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\TerceiroDesafio\bin\Debug\net5.0\TerceiroDesafio.pdb
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\TerceiroDesafio\obj\Debug\net5.0\TerceiroDesafio.dll
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\TerceiroDesafio\obj\Debug\net5.0\ref\TerceiroDesafio.dll
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\TerceiroDesafio\obj\Debug\net5.0\TerceiroDesafio.pdb
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\TerceiroDesafio\obj\Debug\net5.0\TerceiroDesafio.genruntimeconfig.cache

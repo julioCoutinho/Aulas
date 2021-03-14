@@ -1,0 +1,16 @@
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\QuintoDesafio\bin\Debug\net5.0\QuintoDesafio.exe
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\QuintoDesafio\bin\Debug\net5.0\QuintoDesafio.deps.json
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\QuintoDesafio\bin\Debug\net5.0\QuintoDesafio.runtimeconfig.json
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\QuintoDesafio\bin\Debug\net5.0\QuintoDesafio.runtimeconfig.dev.json
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\QuintoDesafio\bin\Debug\net5.0\QuintoDesafio.dll
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\QuintoDesafio\bin\Debug\net5.0\ref\QuintoDesafio.dll
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\QuintoDesafio\bin\Debug\net5.0\QuintoDesafio.pdb
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\QuintoDesafio\obj\Debug\net5.0\QuintoDesafio.csprojAssemblyReference.cache
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\QuintoDesafio\obj\Debug\net5.0\QuintoDesafio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\QuintoDesafio\obj\Debug\net5.0\QuintoDesafio.AssemblyInfoInputs.cache
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\QuintoDesafio\obj\Debug\net5.0\QuintoDesafio.AssemblyInfo.cs
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\QuintoDesafio\obj\Debug\net5.0\QuintoDesafio.csproj.CoreCompileInputs.cache
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\QuintoDesafio\obj\Debug\net5.0\QuintoDesafio.dll
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\QuintoDesafio\obj\Debug\net5.0\ref\QuintoDesafio.dll
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\QuintoDesafio\obj\Debug\net5.0\QuintoDesafio.pdb
+C:\Users\PICHAU\Documents\GitAulas\DesafiosAritmeticosC#\QuintoDesafio\obj\Debug\net5.0\QuintoDesafio.genruntimeconfig.cache
