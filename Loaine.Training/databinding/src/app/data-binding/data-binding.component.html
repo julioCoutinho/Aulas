@@ -1,0 +1,125 @@
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+-->
+<ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="#">Home</a></li>
+  <li role="presentation"><a href="#">Profile</a></li>
+  <li role="presentation"><a href="#">Messages</a></li>
+</ul>
+
+<!-- Interpolation -->
+
+<section class="Interpolation">
+
+  <article>
+    <h3> Interpolation </h3>
+    <p>String get by interpolation: {{ url }}</p>
+    <p>1 + 1 is not = {{ 1+1 + getValue() }} </p>
+    <p>I like the angular course: {{ angularCourse && getLikeCourse() }}</p>
+  </article>
+  <article>
+    <h3> Porperty Binding</h3>
+    <!--<img src="{{imageUrl}}">
+    <img [src] ='imageUrl'>
+    <img bind-src="imageUrl" alt=""> -->
+  </article>
+
+</section>
+
+<!-- Class and Style Binding -->
+
+<section class="StyleBinding">
+
+  <article>
+    <h3>Class and Style Binding</h3>
+    <div>
+      Select a class:
+      <select #class (change) = "0">
+        <option value="alert-success">Success</option>
+        <option value="alert-info">Info</option>
+        <option value="alert-warning">Warning</option>
+        <option value="alert-danger">Danger</option>
+      </select><br><br>
+      <div class="alert" role="alert"
+      [class.alert-success]="class.value ==  'alert-success'">
+        Success.
+      </div>
+      <div class="alert" role="alert"
+      [class.alert-info]="class.value ==  'alert-info'">
+        Info.
+      </div>
+      <div class="alert" role="alert"
+      [class.alert-warning]="class.value ==  'alert-warning'">
+        Warning.
+      </div>
+      <div class="alert" role="alert"
+      [class.alert-danger]="class.value ==  'alert-danger'">
+        Danger.
+      </div>
+      <div class="alert {{ class.value }}" role="alert">
+        The text was get by selected value.
+      </div>
+      <div class="alert alert-danger" role="alert" [style.display]= "class.value == 'alert-danger' ? 'block' : 'none'"  >
+        Error
+      </div>
+    </div>
+  </article>
+
+</section>
+
+<!-- Event Binding -->
+
+<section class="EventBinding">
+
+  <article>
+    <h3>Event Binding</h3>
+    <button (click)="ClickedButton()" class="btn btn-primary">Click me!</button> <br><br>
+    <input type="text" (keyup)="OnKeyUp($event)" (keyup.enter)="SaveValue(inputField.value)" (blur) = "SaveValue(inputField.value)" #inputField> <br><br>
+    Actual input value {{ actualValue }}
+    <br><br>
+    Saved input value {{ savedValue }}
+    <br><br>
+    <span (mouseover) = "onMouseOverOut()" (mouseout) = "onMouseOverOut()" [class.highlight] = "isMouseOver">
+      Mouse hover here.
+    </span>
+  </article>
+
+</section>
+
+<!-- Two way data binding -->
+
+<app-my-form></app-my-form>
+
+<section class="InputOutputProperties">
+
+  <article>
+    <h3>Input/Output Porperties</h3>
+
+    <app-course [name]="courseName"></app-course>
+
+    <app-counter [value]='contValue' (changedValue)="onValueChanged($event)" ></app-counter>
+  </article>
+
+</section>
+
+<!-- Componente life cycle -->
+
+<section class="ComponentLifeCycle">
+
+  <article>
+    <h3>Component life cycle</h3>
+    <app-cycle [initialValue]="value" *ngIf="!deletedCycle"></app-cycle> <br><br>
+    <button type="button" class="btn btn-primary" (click)="changeValue()">Change Value</button>
+    <button type="button" class="btn btn-primary" (click)="deleteCycle()">Delete</button>
+  </article>
+
+</section>
+
+
+<section class="DomAndViewChield">
+
+  <article>
+    <h3>Dom and ViewChield</h3>
+    <input type="text" name="inputDom" id="inputDom" #inputDom>
+  </article>
+
+</section>
