@@ -1,1 +1,30 @@
-<p>ngstyle works!</p>
+<section>
+
+  <article>
+    <h1>Ng Style Directive</h1>
+    <button  role="button"
+    [style.backgroundColor]="active ? 'blue' : 'gray' "
+    [style.color]="active ? 'white' : 'black' "
+
+    [style.fontWeight]="active ? 'bold' :  'normal' "
+    [style.fontSize]="fontSize + 'px'"
+    (click)="activeChange()"
+    >Attribute change</button>
+    <button  role="button"
+    [ngStyle]="{
+      'backgroundColor': active ? 'blue' : 'gray',
+      'color': active ? 'white' : 'black',
+      'fontWeight': active ? 'bold' : 'normal',
+      'fontSize': fontSize + 'px'
+    }"
+    (click)="activeChange()"
+    >Attribute change</button>
+    <form class="row g-3 needs-validation" novalidate>
+      <div class="col-md-4">
+        <label for="validationCustom01" class="form-label">First name</label>
+        <input type="text" [(ngModel)]="fontSize" [ngModelOptions]="{ standalone: true}">
+      </div>
+    </form>
+  </article>
+
+</section>

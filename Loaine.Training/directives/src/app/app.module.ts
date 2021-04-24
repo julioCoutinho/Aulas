@@ -8,6 +8,8 @@ import { NgswitchComponent } from './ngswitch/ngswitch.component';
 import { NgforComponent } from './ngfor/ngfor.component';
 import { NgclassComponent } from './ngclass/ngclass.component';
 import { NgstyleComponent } from './ngstyle/ngstyle.component';
+import { FormsModule } from '@angular/forms';
+import { ElvisOperatorComponent } from './elvis-operator/elvis-operator.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { NgstyleComponent } from './ngstyle/ngstyle.component';
     NgswitchComponent,
     NgforComponent,
     NgclassComponent,
-    NgstyleComponent
+    NgstyleComponent,
+    ElvisOperatorComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
