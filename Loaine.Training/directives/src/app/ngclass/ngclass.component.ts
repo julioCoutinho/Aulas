@@ -9,7 +9,9 @@ export class NgclassComponent implements OnInit {
 
   myfavorite=false;
   constructor() { }
-
+  changeFavorite(){
+    this.myfavorite = !this.myfavorite;
+  }
   ngOnInit(): void {
   }
 

@@ -2,14 +2,16 @@
 
   <article>
     <h1>NgClass Directive</h1>
-    <div class="alert alert-dismissible fade show" role="alert"
-
-    [class.alert-warning="!myfavorite"
-    [class.alert-success]="myfavorite"
-    >
+    <div class="alert alert-dismissible fade show" role="alert"   [class.alert-warning]="!myfavorite" [class.alert-success]="myfavorite">
       <strong>Holy guacamole!</strong> You should check in on some of those fields below.
       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
+
+    <div class="alert alert-dismissible fade show" role="alert"   [ngClass]="{'alert-warning': myfavorite,'alert-success': !myfavorite}">
+      <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <a class="btn btn-primary btn-sm " role="button"  (click)="changeFavorite()">Change Class</a>
   </article>
 
 </section>
