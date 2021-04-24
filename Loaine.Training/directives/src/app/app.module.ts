@@ -10,6 +10,12 @@ import { NgclassComponent } from './ngclass/ngclass.component';
 import { NgstyleComponent } from './ngstyle/ngstyle.component';
 import { FormsModule } from '@angular/forms';
 import { ElvisOperatorComponent } from './elvis-operator/elvis-operator.component';
+import { NgcontentComponent } from './ngcontent/ngcontent.component';
+import { BgYellowDirective } from './shared/bg-yellow.directive';
+import { CustomizedComponent } from './customized/customized.component';
+import { HighlightDirective } from './shared/highlight.directive';
+import { HiglightMouseDirective } from './shared/higlight-mouse.directive';
+import { NgElseDirective } from './shared/ng-else.directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +25,13 @@ import { ElvisOperatorComponent } from './elvis-operator/elvis-operator.componen
     NgforComponent,
     NgclassComponent,
     NgstyleComponent,
-    ElvisOperatorComponent
+    ElvisOperatorComponent,
+    NgcontentComponent,
+    BgYellowDirective,
+    CustomizedComponent,
+    HighlightDirective,
+    HiglightMouseDirective,
+    NgElseDirective
   ],
   imports: [
     BrowserModule,

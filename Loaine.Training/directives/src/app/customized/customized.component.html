@@ -1,0 +1,21 @@
+<section>
+
+  <article>
+
+    <h1>ElementRef and Renderer </h1>
+    <p BgYellow>Element with Yellow background</p>
+    <h1>HostListener and HostBinding Directive</h1>
+    <p HiglightMouse>
+      Text with highlight when mouse over.
+    </p>
+    <p Highlight [defaultColor]="'grey'" [highLightColor]="'red'">
+      Text with highlight when mouse over.
+    </p>
+
+    <h1> Ng Else Directive </h1>
+    <div *ngIf="showCourse">List of courses.</div>
+    <div *ngElse="showCourse"> Has no course to list. </div>
+    <a class="btn btn-primary btn-sm " role="button" (click)="onShowCourses()">Show courses</a>
+  </article>
+
+</section>
