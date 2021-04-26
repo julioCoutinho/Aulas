@@ -1,0 +1,17 @@
+<h1> Courses List </h1>
+
+<ul>
+  <li *ngFor="let course of courses">
+    {{ course }}
+  </li>
+</ul>
+
+<form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Addition new course: </label>
+    <input type="text" class="form-control" id="exampleInputEmail1" #inputCourse>
+    <button type="button" class="btn btn-outline-primary" (click)="onAddCourse(inputCourse.value)">ADD Course</button>
+  </div>
+</form>
+
+<app-receive-created-course></app-receive-created-course>
