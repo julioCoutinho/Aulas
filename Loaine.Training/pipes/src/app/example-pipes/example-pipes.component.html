@@ -1,0 +1,28 @@
+<h1>Pipe examples</h1>
+
+<p>Title: {{ book.title | uppercase | lowercase| camelCase }}</p>
+<p>Rating: {{ book.rating | number:'1.1-1' }}</p>
+<p>Pages: {{ book.pageNumber | number }}</p>
+<p>Price: {{ book.price | currency:'BRL'}}</p>
+<p>Realease date: {{ book.releaseDate | date }}</p>
+<p>URL: {{ book.url }}</p>
+<br><br>
+<p>Book: {{ book | json}}</p>
+
+<div class="mb-3">
+  <label for="input1" class="form-label">Filter: </label>
+  <input type="text" class="form-control" id="input1" aria-describedby="emailHelp" [(ngModel)]="filter">
+</div>
+
+<div class="mb-3">
+  <label for="input1" class="form-label">Add new course: </label>
+  <input type="text" class="form-control" #inputCourse>
+  <button type="button" class="btn btn-outline-primary" (click)="addNewCourse(inputCourse.value)">Add</button>
+</div>
+
+
+<ul>
+  <li *ngFor="let course of courses | arrayFilter:filter">
+      {{ course }}
+  </li>
+</ul>
