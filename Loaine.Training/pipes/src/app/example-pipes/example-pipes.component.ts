@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-example-pipes',
@@ -20,6 +21,8 @@ export class ExamplePipesComponent implements OnInit {
 
   filter = '';
 
+  asyncValue = new Promise((resolve,reject) => {setTimeout(() => resolve('Async value'),2000)});
+
   constructor() { }
 
   ngOnInit(): void {
@@ -28,6 +31,17 @@ export class ExamplePipesComponent implements OnInit {
   addNewCourse(course:string){
     this.courses.push(course);
     console.log(this.courses);
+  }
+
+  getCourse(){
+    if (this.courses.length === 0 || this.filter === undefined || this.filter.trim() === "") return this.courses;
+    return this.courses.filter((v) => {
+      if(v.toLowerCase().indexOf(this.filter.toLowerCase()) >= 0){
+        return true;
+      }else {
+        return false;
+      }
+    })
   }
 
 }

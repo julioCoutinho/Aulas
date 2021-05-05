@@ -20,9 +20,29 @@
   <button type="button" class="btn btn-outline-primary" (click)="addNewCourse(inputCourse.value)">Add</button>
 </div>
 
+<h1>Pure pipe</h1>
 
 <ul>
   <li *ngFor="let course of courses | arrayFilter:filter">
       {{ course }}
   </li>
 </ul>
+
+<h1>Impure pipe</h1>
+
+<ul>
+  <li *ngFor="let course of courses | impureArrayFilter:filter">
+      {{ course }}
+  </li>
+</ul>
+
+<h1>The correct way to do</h1>
+
+
+<ul>
+  <li *ngFor="let course of getCourse()">
+    {{ course }}
+  </li>
+</ul>
+
+<p>{{ asyncValue | async }}</p>

@@ -11,6 +11,8 @@ import { CamelCasePipe } from './camel-case.pipe';
 import { ArrayFilterPipe } from './array-filter.pipe';
 import { FormsModule } from '@angular/forms';
 import { ArrayFilterImpurePipe } from './array-filter-impure.pipe';
+import { ImpureArrayFilterPipe } from './impure-array-filter.pipe';
+import { HomeComponent } from './home/home.component';
 
 registerLocaleData(localePt);
 
@@ -20,7 +22,9 @@ registerLocaleData(localePt);
     ExamplePipesComponent,
     CamelCasePipe,
     ArrayFilterPipe,
-    ArrayFilterImpurePipe
+    ArrayFilterImpurePipe,
+    ImpureArrayFilterPipe,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
