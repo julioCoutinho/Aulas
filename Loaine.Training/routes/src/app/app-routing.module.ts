@@ -1,3 +1,4 @@
+import { PageNotfoundComponent } from './page-notfound/page-notfound.component';
 import { StudentsGuard } from './guards/students.guard';
 import { CoursesGuard } from './guards/courses.guard';
 import { AuthGuard } from './guards/auth.guard';
@@ -15,7 +16,9 @@ const APP_ROUTES: Routes = [
     { path: 'courses', loadChildren: () => CoursesModule, canActivate: [AuthGuard], canActivateChild:[CoursesGuard]},
     { path: 'students', loadChildren: () => StudentsModule, canActivate: [AuthGuard],canActivateChild:[StudentsGuard]},
     { path: 'login', component: LoginComponent },
-    { path: '', component: HomeComponent, canActivate: [AuthGuard] }
+    { path: 'home', component: HomeComponent, canActivate: [AuthGuard] },
+    { path: '', redirectTo:'/home', pathMatch:'full' },
+    { path: '**', component: PageNotfoundComponent }
 ];
 
 @NgModule({

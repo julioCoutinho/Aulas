@@ -1,0 +1,91 @@
+<div class="formGroup">
+    <form #f="ngForm" (ngSubmit)="onSubmit(f)">
+        <div class="col col-sm-12" style="padding-top:1%;">
+            <label for="name" class="form-label">*Name</label>
+            <input type="email" class="form-control" id="name" name="name"
+                placeholder="Name" [(ngModel)]="user.name" required #name="ngModel">
+            <app-required-field-text 
+                [showError]="fieldNotValidAndTouched(name)" 
+                showErrorMessage="Name">
+            </app-required-field-text>
+        </div>
+        <div class="col col-sm-12" style="padding-top:1%;">
+            <label for="emailAddress" class="form-label">*Email address</label>
+            <input type="email" class="form-control" id="emailAddress" name="emailAddress" 
+                aria-describedby="emailHelp" placeholder="Email Address" [(ngModel)]="user.email" required email #email="ngModel">
+            <app-required-field-text 
+                [showError]="fieldNotValidAndTouched(email)" 
+                showErrorMessage="Email">
+            </app-required-field-text>
+        </div>
+        <div ngModelGroup="Address">
+            <div class="row" style="padding-top:1%;">
+                <div class="col col-md-3">
+                    <label for="cep">*CEP</label>
+                    <input type="text" class="form-control" id="cep" name="cep" 
+                    ngModel required #cep="ngModel">
+                <app-required-field-text 
+                    [showError]="fieldNotValidAndTouched(cep)" 
+                    showErrorMessage="Cep">
+                </app-required-field-text>
+                </div>
+                <div class="col col-md-3">
+                    <label for="number">*Number</label>
+                    <input type="number" class="form-control" id="number" name="number" 
+                    ngModel #number="ngModel">
+                    <app-required-field-text 
+                        [showError]="fieldNotValidAndTouched(number)" 
+                        showErrorMessage="Number">
+                </app-required-field-text>
+                </div>
+                <div class="col col-md-6">
+                    <label for="complement">Complement</label>
+                    <input type="complement" class="form-control" id="complement" name="complement" 
+                    ngModel required #complement="ngModel">
+                </div>
+            </div>
+            <div class="col col-sm-12" style="padding-top:1%;">
+                <label for="street" class="form-label">*Street</label>
+                <input type="email" class="form-control" id="street" name="street"
+                    placeholder="street" [(ngModel)]="user.street" required #street="ngModel">
+                <app-required-field-text 
+                    [showError]="fieldNotValidAndTouched(street)" 
+                    showErrorMessage="Street">
+                </app-required-field-text>
+            </div>
+            <div class="row" style="padding-top:1%;">
+                <div class="col col-md-5">
+                    <label for="district">*District</label>
+                    <input type="text" class="form-control" id="district" name="district" 
+                    ngModel required #district="ngModel">
+                    <app-required-field-text 
+                        [showError]="fieldNotValidAndTouched(district)" 
+                        showErrorMessage="District">
+                    </app-required-field-text>
+                </div>
+                <div class="col col-md-4">
+                    <label for="city">*City</label>
+                    <input type="text" class="form-control" id="city" name="city" 
+                    ngModel required #city="ngModel">
+                    <app-required-field-text 
+                        [showError]="fieldNotValidAndTouched(city)" 
+                        showErrorMessage="city">
+                    </app-required-field-text>
+                </div>
+                <div class="col col-md-3">
+                    <label for="state">State</label>
+                    <input type="state" class="form-control" id="state" name="state" 
+                    ngModel required #state="ngModel">
+                    <app-required-field-text 
+                        [showError]="fieldNotValidAndTouched(state)" 
+                        showErrorMessage="State">
+                    </app-required-field-text>
+                </div>
+            </div>
+        </div>
+        <div class="row"style="padding-top:1%;">
+            <div class="col col-md-3"><button type="submit" class="btn btn-primary" [disabled]="!f.valid"> Submit</button></div>
+        </div>
+        <app-form-debug [form]="f"></app-form-debug>
+    </form>
+</div>
