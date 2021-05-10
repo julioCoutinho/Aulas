@@ -1,4 +1,6 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import 'rxjs/add/operator/map';
 
 @Component({
   selector: 'app-template-form',
@@ -13,7 +15,9 @@ export class TemplateFormComponent implements OnInit {
     street: null,
   }
 
-  constructor() { }
+  constructor(
+    private http: HttpClient,
+    ) { }
 
   ngOnInit(): void {
   }
@@ -26,4 +30,17 @@ export class TemplateFormComponent implements OnInit {
     return !event.valid && event.touched;
   }
 
+  /*
+  findCEP(cep){
+    cep = cep.replace(/\D/g,'');
+    if(cep == ""){
+      let validateCep = /^[0-9]{8}$/;
+      if(validateCep.test(cep)){
+        //this.http.get();
+        this.http.get(`//viacep.com.br/ws/${cep}/json/`)
+           .subscribe(resultado => console.log(resultado));
+      }
+    }
+  }
+*/
 }
