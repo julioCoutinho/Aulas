@@ -1,0 +1,7 @@
+.applyError :not(div):not(label):not(app-required-field-text){
+    border: 1px solid #a83c32;
+}
+
+input, select{
+  margin-top: 0.4em;
+}

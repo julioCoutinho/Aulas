@@ -10,7 +10,7 @@ export class RequiredFieldTextComponent implements OnInit {
 
   @Input() showError:boolean;
   @Input() showErrorMessage:string;
-
+  @Input() showErrorEmail: string;
   constructor() { }
 
   ngOnInit(): void {

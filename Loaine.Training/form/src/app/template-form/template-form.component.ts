@@ -1,3 +1,4 @@
+import { FindCepService } from './../shared/services/find-cep.service';
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
@@ -9,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./template-form.component.css']
 })
 export class TemplateFormComponent implements OnInit {
-  
+
   formData;
 
   user = {
@@ -20,6 +21,7 @@ export class TemplateFormComponent implements OnInit {
 
   constructor(
     private http: HttpClient,
+    private _cepService: FindCepService
     ) { }
 
   ngOnInit(): void {
@@ -35,20 +37,14 @@ export class TemplateFormComponent implements OnInit {
     return !event.valid && event.touched;
   }
 
-    
+
   findCEP(cep, form){
     cep = cep.replace(/\D/g,'');
-    if(cep != ""){
-      let validateCep = /^[0-9]{8}$/;
-      if(validateCep.test(cep)){
-        console.log("asdsa"); 
-        //this.http.get();
-        this.http.get(`//viacep.com.br/ws/${cep}/json/`)
-           .subscribe(data => this.setDataForm(data,form));
-      }else{
-        this.resetFormData(form);
-      }
+
+    if(cep != null && cep !== ''){
+      this._cepService.findCEP(cep).subscribe(data=> this.setDataForm(data,form));
     }
+
   }
 
   resetFormData(form){
