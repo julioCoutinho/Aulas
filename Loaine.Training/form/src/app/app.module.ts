@@ -18,7 +18,7 @@ import { DataFormModule } from './data-form/data-form.module';
     TemplateFormModule,
     HttpClientModule,
     ReactiveFormsModule,
-    DataFormModule
+    DataFormModule,
   ],
   providers: [
 
